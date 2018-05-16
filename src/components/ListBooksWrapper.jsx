@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import CurrentlyReading from './CurrentlyReading'
-import WantToRead from './WantToRead'
-import Read from './Read'
+import Bookshelf from './Bookshelf'
 
 const ListBooksWrapper = () => {
   return (
     <div className="list-books-content">
       <div>
-        <CurrentlyReading />
-        <WantToRead />
-        <Read />
+        <Bookshelf />
+        <Bookshelf />
+        <Bookshelf />
       </div>
     </div>
   )
